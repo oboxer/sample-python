@@ -1,0 +1,14 @@
+{
+  "access_key": "REPLACE_WITH_YOUR_VALUE",
+  "secret_key": "REPLACE_WITH_YOUR_VALUE",
+  "cpus": "REPLACE_WITH_YOUR_VALUE",
+  "mem": "REPLACE_WITH_YOUR_VALUE",
+  "shm_size": "REPLACE_WITH_YOUR_VALUE",
+  "iam": "REPLACE_WITH_YOUR_VALUE",
+  "table": "REPLACE_WITH_YOUR_VALUE",
+  "hostname": "REPLACE_WITH_YOUR_VALUE",
+  "port": "REPLACE_WITH_YOUR_VALUE",
+  "database": "REPLACE_WITH_YOUR_VALUE",
+  "username": "REPLACE_WITH_YOUR_VALUE",
+  "password": "REPLACE_WITH_YOUR_VALUE"
+}

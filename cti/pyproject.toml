@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ctizh"
+version = "0.1.0"
+description = "Sample project"
+authors = ["Zi Huang <zian.w.huang@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^1.10"
+psycopg = { version = "^3.1.9", extras = ["binary", "pool"] }
+polars = "^0.18.2"
+ray = "^2.5.0"
+s3fs = "^2023.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7"
+pylint = "^2"
+
+[tool.poetry.scripts]
+extract_transform = "ctizh.dataeng.transform.extract_transform:main"
+redshift_load = "ctizh.dataeng.load.redshift_load:main"
